@@ -1,0 +1,13 @@
+# Environment
+.env
+venv/
+__pycache__/
+
+# Temporary files
+temp_manual.pdf
+chroma_db/
+*.pyc
+
+# OS files
+.DS_Store
+Thumbs.db
