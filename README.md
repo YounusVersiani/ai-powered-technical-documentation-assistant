@@ -8,7 +8,7 @@ An intelligent question-answering system that helps engineers and technicians qu
 
 ---
 
-## 🎯 The Problem
+## The Problem
 
 Engineers working with technical documentation face a common challenge:
 - **Manual search is slow**: Finding specific information in a 500-page manual takes hours
@@ -19,7 +19,7 @@ Engineers working with technical documentation face a common challenge:
 
 ---
 
-## ✨ What This Does
+## What This Does
 
 Upload any technical PDF (user manuals, engineering specifications, maintenance guides), and the system:
 
@@ -36,7 +36,7 @@ Upload any technical PDF (user manuals, engineering specifications, maintenance 
 
 ---
 
-## 🚀 Live Demo
+## Live Demo
 
 **Try it now:** [https://rag-chatbot-gpt5series.streamlit.app/](https://rag-chatbot-gpt5series.streamlit.app/)
 
@@ -47,7 +47,7 @@ Upload any technical PDF (user manuals, engineering specifications, maintenance 
 
 ---
 
-## 🏗️ How It Works (RAG Architecture)
+## How It Works (RAG Architecture)
 
 This system uses **Retrieval-Augmented Generation (RAG)**, which combines:
 - **Retrieval**: Finds relevant information from your document
@@ -91,14 +91,14 @@ This system uses **Retrieval-Augmented Generation (RAG)**, which combines:
 ```
 
 **Why RAG instead of just asking GPT-5 directly?**
-- ✅ **Accurate**: Answers grounded in your specific document
-- ✅ **Up-to-date**: Works with proprietary or recent documents GPT-5 hasn't seen
-- ✅ **Verifiable**: Shows exact sources for fact-checking
-- ✅ **No hallucination**: AI can't make up information not in the document
+- **Accurate**: Answers grounded in your specific document
+- **Up-to-date**: Works with proprietary or recent documents GPT-5 hasn't seen
+- **Verifiable**: Shows exact sources for fact-checking
+- **No hallucination**: AI can't make up information not in the document
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Component | Technology | Purpose |
 |-----------|-----------|---------|
@@ -112,7 +112,7 @@ This system uses **Retrieval-Augmented Generation (RAG)**, which combines:
 
 ---
 
-## 🎯 Key Features
+## Key Features
 
 ### 1. **Semantic Search**
 Unlike keyword search, the system understands meaning:
@@ -139,7 +139,7 @@ Every answer shows the source text it came from:
 
 ---
 
-## 💻 Installation & Local Setup
+## Installation & Local Setup
 
 ### Prerequisites
 - Python 3.11 or higher
@@ -182,7 +182,7 @@ Open browser to: `http://localhost:8501`
 
 ---
 
-## 📊 Performance Metrics
+## Performance Metrics
 
 | Metric | Value | Details |
 |--------|-------|---------|
@@ -194,7 +194,7 @@ Open browser to: `http://localhost:8501`
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ai-powered-technical-documentation-assistant/
@@ -211,7 +211,7 @@ ai-powered-technical-documentation-assistant/
 
 ---
 
-## 🔧 Technical Implementation Details
+## Technical Implementation Details
 
 ### Document Processing
 ```python
@@ -248,7 +248,7 @@ The AI is instructed to act as a **"Technical Solutions Architect"** to:
 
 ---
 
-## 🚀 Deployment on Streamlit Cloud
+## Deployment on Streamlit Cloud
 
 This app is deployed on Streamlit Community Cloud (free tier):
 
@@ -262,7 +262,7 @@ This app is deployed on Streamlit Community Cloud (free tier):
 
 ---
 
-## 🎓 Use Cases
+## Use Cases
 
 ### Manufacturing
 - Query PCB assembly manuals for defect troubleshooting
@@ -286,7 +286,7 @@ This app is deployed on Streamlit Community Cloud (free tier):
 
 ---
 
-## 🔮 Future Enhancements
+## Future Enhancements
 
 - [ ] **Multi-document cross-referencing**: Query across multiple uploaded manuals
 - [ ] **Table and diagram extraction**: Better handling of structured data
@@ -297,7 +297,7 @@ This app is deployed on Streamlit Community Cloud (free tier):
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Contributions welcome! Areas for improvement:
 - Support for additional file formats (DOCX, HTML, Markdown)
@@ -307,13 +307,13 @@ Contributions welcome! Areas for improvement:
 
 ---
 
-## 📄 License
+## License
 
 MIT License - See LICENSE file for details
 
 ---
 
-## 👨‍💻 Author
+## Author
 
 **Younus Versiani**  
 Autonomous Vehicle Engineering Student  
@@ -324,7 +324,7 @@ Technische Hochschule Ingolstadt
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 - **LangChain** for the RAG framework
 - **OpenAI** for GPT-5 API and embeddings
@@ -333,4 +333,4 @@ Technische Hochschule Ingolstadt
 
 ---
 
-**⭐ If you find this project useful, consider starring the repository!**
+**If you find this project useful, consider starring the repository!**
