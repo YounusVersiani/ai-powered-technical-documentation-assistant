@@ -31,7 +31,7 @@ os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
 
 # --- CONFIGURATION ---
 st.set_page_config(
-    page_title="Enterprise AI Engine",
+    page_title="Technical Assistant AI Engine",
     page_icon="⚛️",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -87,8 +87,8 @@ with st.sidebar:
         st.rerun()
 
 # --- MAIN DASHBOARD ---
-st.title("⚛️ Enterprise Neural Retrieval Engine")
-st.caption(f"🚀 Architecture: RAG-v3 | Model: {model_choice} | Semantic Search Enabled")
+st.title("⚛️ Neural Retrieval Engine")
+st.caption(f"Architecture: RAG-v3 | Model: {model_choice} | Semantic Search Enabled")
 
 # --- STATE MANAGEMENT ---
 if "messages" not in st.session_state:
@@ -137,10 +137,10 @@ if uploaded_file is not None:
                 )
                 
                 st.session_state.current_file = uploaded_file.name
-                st.toast(f"✅ Ingestion Complete: {len(splits)} semantic chunks indexed.")
+                st.toast(f"Ingestion Complete: {len(splits)} semantic chunks indexed.")
                 
             except Exception as e:
-                st.error(f"❌ Error processing document: {str(e)}")
+                st.error(f"Error processing document: {str(e)}")
                 st.session_state.vector_db = None
 
 # --- RENDER CHAT HISTORY ---
