@@ -31,7 +31,7 @@ os.environ["OPENAI_API_KEY"] = os.getenv("OPENAI_API_KEY")
 
 # --- CONFIGURATION ---
 st.set_page_config(
-    page_title="Technical Assistant AI Engine",
+    page_title="Technical Documentation Assistant AI Engine",
     page_icon="⚛️",
     layout="wide",
     initial_sidebar_state="expanded"
